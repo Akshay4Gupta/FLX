@@ -1,0 +1,12 @@
+val i =  "((LAMBDA x[LAMBDA y[x]] x) (w w))";
+i = toString(fromString(i));
+val i = ("(ITE <T,LAMBDA x[x],LAMBDA x[LAMBDA y[Z]]>)");
+i = toString(fromString(i));
+val i = ("(ITE <T,(LAMBDA x[x] Z),(LAMBDA x[LAMBDA y[Z]] Z)>)");
+i = toString(fromString(i));
+val i =  "((LAMBDA x[LAMBDA y[x]] x) (w w))";
+i = toString(fromString(i));
+val i =  "LAMBDA LAMBDA (GTZ Z)[T][(S Z)]";
+i = toString(fromString(i));
+val i =  ("LAMBDA LAMBDA LAMBDA (GTZ Z)[T][T][(S Z)]");
+i = toString(fromString(i));
